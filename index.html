@@ -5,38 +5,23 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" />
       <link rel="stylesheet" href="style.css" media="none" onload="if(media!='all')media='all'" />
-      <script language="JavaScript" src="./timetitle.js" async></script>
-      <script language="JavaScript" src="./fullscreen.js" async></script>
-      <script language="JavaScript" src="./timedate.js" async></script>
+      <script language="JavaScript" src="timetitle.js" async></script>
+      <script language="JavaScript" src="fullscreen.js" async></script>
+      <script language="JavaScript" src="timedate.js" async></script>
    </head>
    <body onload="startTime()">
       <div class="line">
-         <div class="invis">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+         <div id="brr" class="invis">
          </div>
-         <div id="time" class="a">
-            ERROR
+         <div class="a">
+            <p id="time">ERROR</p>
          </div>
-         <br />
          <div class="a">
             <p id="date">ERROR</p>
          </div>
       </div>
-      <div id="fullscreen" class="fullscreen">|Enter| for FullScreen</div>
+      <div id="fullscreen" class="fullscreen">
+        <p></p>
+      </div>
    </body>
 </html>
